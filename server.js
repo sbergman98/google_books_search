@@ -25,7 +25,7 @@ app.get("*", (req, res) => {
 });
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks",
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://sbergman:MlpsgwRMAgPaqyAP@cluster0.m4hyi.mongodb.net/googlebooks?retryWrites=true&w=majority",
 
 {
   useNewUrlParser: true,
