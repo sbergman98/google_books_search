@@ -72,9 +72,9 @@ return (
   </div>
 
    <div className="row">
-     <div className="col-1 pl-3"> 
+     <div className="col-3 pl-3"> 
      <img alt={book.volumeInfo.title} className="img-fluid" src={book.volumeInfo.imageLinks?book.volumeInfo.imageLinks.smallThumbnail:null}/></div> 
-     <div className="col-11">{book.volumeInfo.description}</div>   
+     <div className="col-9">{book.volumeInfo.description}</div>   
    </div>
    
    </div>
